@@ -12,7 +12,7 @@ public class PangramTest {
     public void testPangram() {
         String input = "We promptly judged antique ivory buckles for the next prize";
 
-        Pangram p =new Pangram();
+        Pangram p = new Pangram();
         String output = p.isPangram(input);
         Assert.assertEquals("pangram", output);
     }
@@ -21,7 +21,7 @@ public class PangramTest {
     public void testNotPangram() {
         String input = "We promptly judged antique ivory buckles for the prize";
 
-        Pangram p =new Pangram();
+        Pangram p = new Pangram();
         String output = p.isPangram(input);
         Assert.assertEquals("not pangram", output);
     }
