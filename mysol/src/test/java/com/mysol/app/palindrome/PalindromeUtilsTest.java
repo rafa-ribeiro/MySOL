@@ -38,6 +38,4 @@ public class PalindromeUtilsTest {
         boolean isPalindrome = utils.isAlmostPalindrome("abccfg");
         assertFalse(isPalindrome);
     }
-
-
 }
